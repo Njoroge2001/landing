@@ -1,0 +1,29 @@
+#footer{
+
+  background: brown;
+  position: relative;
+}
+
+.social-links{
+  text-align: center;
+}
+.social-links .fa{
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border: 1px solid brown;
+  margin: 40px 5px 0;
+  color:white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.social-links .fa:hover{
+  background: brown;
+  color: #fff;
+  transform: translate(-7px);
+}
+.social-links p{
+  font-size: 12px;
+  margin-top: 20px;
+}
